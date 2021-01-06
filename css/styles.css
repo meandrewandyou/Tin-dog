@@ -1,0 +1,159 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 30px;
+
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding:7% 15%;
+}
+
+
+
+/* Nav-Bar */
+.navbar-brand {
+  font-size: 3rem;
+  margin-left: 0;
+}
+
+.nav-link {
+  margin: auto auto auto 30px;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  padding-left: 0;
+  margin-bottom: 4.5rem;
+}
+/* Title */
+#title {
+  background-color: pink;
+  text-align: left;
+}
+ .download-button {
+  margin: 3% 5% 5% 0;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+.rotated {
+  transform: rotate(30deg);
+  position: absolute;
+  width: 50%;
+  right: 30%;
+}
+@media (max-width: 991px){
+  .rotated{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+/* Features */
+#features {
+  background-color: white;
+  position: relative;
+}
+
+.fas {
+  color: salmon;
+  margin-bottom: 5%
+}
+
+.fas:hover {
+  color: pink;
+}
+
+.features-head {
+  font-size: 1.5rem;
+}
+
+.features-text {
+  color: grey;
+  font-family: "Ubuntu";
+}
+
+.feat-box {
+  padding: 7%;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: salmon;
+  color: white;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding: 3% 15%;
+    background-color: salmon;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+
+
+.price-box {
+  padding: 3% 2%;
+}
+
+/* Call to action */
+#cta{
+  background-color: pink;
+  padding-top: 6%;
+}
+.header-cta{
+  font-size: 2.5rem;
+  color: white;
+  padding: 0 30%;
+  line-height: 1.5;
+}
+@media(max-width: 782px){
+  .header-cta{
+    padding: 0;
+  }
+}
+/* Footer */
+#footer{
+  background-color: white;
+  padding:3% 0;
+}
+.copyright{
+  color: grey;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+.social-media{
+  color: black;
+  margin: 3% 1%;
+}
+.social-media:hover{
+  color: pink;
+}
+.bot-button{
+  margin: 2% 2% 4%;
+}
